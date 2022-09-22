@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/SSEcss.css">
+	<script type="text/javascript">
+		function sse()
+		{
+			var em=document.getElementById('email-create') ;
+			var Pass=document.getElementById('Pass') ;
+				var filter=/^([a-zA-Z0-9\_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{3,5})+$/;
+
+				if(!filter.test(em.value)){
+					alert("Please Provide a valid Email address");
+				} else if (Pass.value.length < 6){
+					alert("Password must be atleast 6 characters")
+				}
+				else{
+					alert("Submit Successful");}
+				}
+		
+	</script>
+	<style type="text/css">
+
+	</style>
+	<meta charset="utf-8">
+	<title>Create Page</title>
+</head>
+<body>
+		<div class="outline">
+	<div id="C"><img src="images\knL LG.png" class="imgC1">
+		
+	<div id="menu">
+		<ul>
+			<li><a href="home.html">HOME</a></li>
+		<li><a href="#.html..html">MISSIONS</a>
+			<ul>
+				<li><a href="chandryan.html">Chandryan-2</a></li>
+				
+			</ul>
+		</li>
+		<li><a href="#.html..html">GALAXY</a>
+			<ul>
+				<li><a href="Planets.html">Planets</a></li> 
+				<li><a href="astronoid.html">Asteroiods</a></li>
+				<li><a href="Moons.html">Moons</a></li> 
+			</ul>
+		</li>
+		<li><a href="Earth.html">EARTH</a>
+			<ul>
+				<li><a href="earth's Moon.html">Moon</a></li> 
+				
+			</ul>
+		</li>
+		<li><a href="#About.html">ABOUT</a></li>
+		
+		</ul>
+	</div></div>
+	<!-- <div class="login"><h3 class="logbutton"><a href="SSE login.html">LOGIN</a></h3></div> -->
+
+
+	<form id="login" name="Kunal" method="post" onsubmit="sse()">
+		<div>
+		<h2 class="content-nitin">CONTACT US</h2><br><br><br>
+		<h3>E-mail<input type="gmail" name="" placeholder="example@gmail.com" id="email-create"><hr>
+			Full Name<input type="text" name="" id="name" required=""><hr>
+			DOB<input type="date" name="" id="Date" required=""><hr>
+			Create password<input type="password" name="pass" id="Pass"><hr><br>
+		Country/Region
+	<select id="Pass" required="">
+		<option>India</option>
+		<option>Afghanistan</option>
+		<option>USA</option>
+		<option>China</option>
+		<option>Australia</option>
+	</select><hr></h3>
+	<input type="checkbox" name=""> Please contact me via email
+	<br><br><br>
+
+			<input type="submit" value="Create" name="" class="submit" name=""><br><br><br>
+			Already have an account ?<a href="SSE login.html"> Login</a></h3>
+		</div>
+		</div>
+	</form>
+	<div id="sidebar-create"><img src="images\bg3.jpg" class="imgC2-create"></div>
+	<!-- <div id="sidebar2"><img src="images\bg4.jpg" class="imgC3"></div> -->
+	<div id="footer-create">
+		<div class="footer1">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="for-media.html">For Media</a></li>
+				<li><a href="nasa">Contact NASA</a></li>
+				<li><a href="isro">Contact ISRO</a></li>
+			</ul><br>
+			<ul id="footer2">
+				<li>Phone :07078216535  Fax :7078216535</li>
+				<li>@2121 All Right Reserved.</li>
+				<li><a href="privacy.html">Privacy Policy</a></li>
+			</ul>
+			<ul id="footer3">
+				<li><a href="https://twitter.com/ijimworld"><img src="images\Twitter Logo.png" id="imgC10"></a></li>
+				<li><a href="https://t.co/LHe6yDRaEu?amp=1"><img src="images\ig logo.png" id="imgC10"></a></li>
+				<li><a href="https://www.facebook.com/kunal.gurjar.5201254"><img src="images\fb logo.png" id="imgC10"></a></li>
+			</ul>
+			
+		</div>
+
+	</div>
+	
+</div>
+</body>
+</html>

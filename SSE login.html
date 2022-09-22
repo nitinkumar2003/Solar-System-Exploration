@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/SSEcss.css">
+	<script type="text/javascript">
+		function checkEmail()
+		{
+			var em=document.getElementById('email') ;
+			var pass=document.getElementById('pass') ;
+				var filter=/^([a-zA-Z0-9\_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{3,5})+$/;
+
+				if(!filter.test(em.value)){
+					alert("Please Provide a valid Email address");
+				} else if (pass.value.length < 6){
+					alert("Password must be atleast 6 characters")
+				}
+				else{
+					alert("Submit Successful");}
+				}
+	</script>
+	<style type="text/css">
+	</style>
+	<meta charset="utf-8">
+	<title>Login Page</title>
+</head>
+<body>
+		<div class="outline">
+	<div id="C"><img src="images\knL LG.png" class="imgC1">
+		
+	<div id="menu">
+		<ul>
+			<li><a href="home.html">HOME</a></li>
+		<li><a href="#.html..html">MISSIONS</a>
+			<ul>
+				<li><a href="chandryan.html">Chandryan-2</a></li>
+				
+			</ul>
+		</li>
+		<li><a href="#.html..html">GALAXY</a>
+			<ul>
+				<li><a href="Planets.html">Planets</a></li> 
+				<li><a href="astronoid.html">Asteroiods</a></li>
+				<li><a href="Moons.html">Moons</a></li> 
+			</ul>
+		</li>
+		<li><a href="Earth.html">EARTH</a>
+			<ul>
+				<li><a href="earth's Moon.html">Moon</a></li> 
+				
+			</ul>
+		</li>
+		<li><a href="#About.html">ABOUT</a></li>
+		
+		</ul>
+	</div></div>
+	<!-- <div class="login"><h3 class="logbutton"><a href="SSE login.html">LOGIN</a></h3></div> -->
+
+<form id="login" name="Kunal" method="post" >  <!-- onsubmit="sse()" -->
+		<div>
+		<h2>LOGIN</h2><br><br><br>
+		<h3>E-MAIL<input type="gmail" name="email" placeholder="example@gmail.com" id="email"><hr>
+			<!-- ID<input type="text" name="" required="" id="ID"><hr> -->
+			PASSWORD<input type="password" name="pass" id="pass"><hr><br></h3>
+			<input type="submit" value="Login" name="" class="submit" name="" onclick='Javascript:checkEmail();'><br><br><br>
+			Don't have an account ?<a href="SSE Create.html"> Create Account</a></h3>
+		</div>
+	</form>
+	<div id="sidebar-login"><img src="images\bg3.jpg" class="imgC2-login"></div>
+	<!-- <div id="sidebar2"><img src="images\bg4.jpg" class="imgC3"></div> -->
+	<div id="footer-login">
+		<div class="footer1">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="for-media.html">For Media</a></li>
+				<li><a href="nasa">Contact NASA</a></li>
+				<li><a href="isro">Contact ISRO</a></li>
+			</ul><br>
+			<ul id="footer2">
+				<li>Phone :07078216535  Fax :7078216535</li>
+				<li>@2121 All Right Reserved.</li>
+				<li><a href="privacy.html">Privacy Policy</a></li>
+			</ul>
+			<ul id="footer3">
+				<li><a href="https://twitter.com/ijimworld"><img src="images\Twitter Logo.png" id="imgC10"></a></li>
+				<li><a href="https://t.co/LHe6yDRaEu?amp=1"><img src="images\ig logo.png" id="imgC10"></a></li>
+				<li><a href="https://www.facebook.com/kunal.gurjar.5201254"><img src="images\fb logo.png" id="imgC10"></a></li>
+			</ul>
+			
+		</div>
+
+	</div>
+	
+</div>
+</body>
+</html>

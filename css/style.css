@@ -1,0 +1,231 @@
+
+
+@font-face {
+	font-family: 'Oswald';
+	src: url('../fonts/Oswald.eot');
+	src: local('☺'), url('../fonts/Oswald.woff') format('woff'), url('../fonts/Oswald.ttf') format('truetype'), url('../fonts/Oswald.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'QuattrocentoSans-Regular';
+	src: url('../fonts/QuattrocentoSans-Regular.eot');
+	src: local('☺'), url('../fonts/QuattrocentoSans-Regular.woff') format('woff'), url('../fonts/QuattrocentoSans-Regular.ttf') format('truetype'), url('../fonts/QuattrocentoSans-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+/*--------------body------------------*/
+
+body {
+	background: #211917 url(../images/bg-body.png) repeat-y center top;
+	font-family: "QuattrocentoSans-Regular";
+	margin: 0;
+}
+
+/*--------header---------*/
+#header {
+	background-color:white;
+	height: 88px;
+	border-bottom: 1px solid #fff;
+	padding: 36px 0 0;
+}
+
+/*#header > div {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	text-align: right;
+}*/
+/*-------------------logo-------------------*/
+.logo{
+	float: left;
+	width: 400px;
+	margin: 0;
+	text-align: center;
+	/*margin-top:-5px ;*/
+	/*border: 1px solid red;*/
+}
+.logo img{
+	height: 85px;
+	width: 300px;
+}
+/*-------------------Menu--------------------*/
+.menu{
+	/*border: 1px solid red;*/
+	margin-left: 500px;	
+	margin-top: 46px;
+}
+.headermenu ul{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	height: 40px;
+	width: 100px;
+	float: left;
+	list-style: none;
+	display:inline-block;
+	text-align: center;
+	line-height: 40px;
+	/*border: 1px solid;*/
+	font-size: 18px;
+	color: white;
+	/*background-color: gray;*/
+
+
+}
+.headermenu li a{
+	text-decoration: none;
+	
+	color: black;
+	display: block;
+	font-weight: bold;
+
+}
+.headermenu li a:hover{
+	font-size: 19px;
+	color: orange;
+	text-decoration: underline;
+}
+
+.headermenu li ul{
+	background-color: pink;
+	display: none;
+}
+.headermenu li:hover ul{
+	display: block;
+}
+
+
+
+
+ul li.selected a {
+	color: #ffc947;
+}
+/*------------------Login-Button-----------------
+.login{
+	float: right;
+	margin: 0;
+	margin-top: -80px;
+	margin-right: 10px;
+}
+
+.logbutton {
+  border: none;
+  padding: 10px 21px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+.logbutton a{
+	color: red;
+}
+.logbutton a:hover{
+	color: blue;
+	text-decoration: underline;
+}
+
+/*---------------content--------------*/
+#content{
+	background: #211917 url(../images/bg-contents.png) repeat-y center top;
+		background-repeat: repeat-y;
+	height: 800px;
+	width: 100%;
+}
+
+
+
+
+/*-----------------footer--------------------*/
+#footer {
+	margin-top: -16px;
+	height: 140px;
+	background-color: black;
+	border-top: 1px none #fff;
+}
+.footer1 ul{
+	margin-left: 235px;
+	padding: 0;
+
+}
+.footer1 li{
+	height: 40px;
+	width: 170px;
+	float: left;
+	list-style: none;
+	display:inline-block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	color: white;
+
+
+
+}
+.footer1 li a{
+	text-decoration: none;
+	
+	color: white;
+	display: block;
+	font-weight: bold;
+
+}
+.footer1 li a:hover{
+	font-size: 19px;
+	color: blue;
+	/*text-decoration: underline;*/
+}
+/*---------------Social MEdia---------------*/
+#connect a {
+	display: inline-block;
+	height: 33px;
+	/*margin: 0 10px;*/
+	color: whitesmoke;
+}
+#connect a.facebook {
+	background-position: -46px -112px;
+	width: 33px;
+}
+#connect a.googleplus {
+	background-position: -46px -153px;
+	width: 34px;
+}
+#connect a.twitter {
+	background-position: 0 -194px;
+	width: 40px;
+}
+#connect a.facebook:hover {
+	background-position: 0 -112px;
+}
+#connect a.googleplus:hover {
+	background-position: 0 -153px;
+}
+#connect a.twitter:hover {
+	/*background-position: 0 -194px;*/
+}
+.footer1 #footer2{
+	margin-left: 235px;
+	padding: 0;
+
+}
+
+#footer2 li{
+	width: 350px;
+	float: left;
+	list-style: none;
+	display:inline-block;
+	text-align: center;
+	
+	font-size: 15px;
+	color: white;
+
+
+
+}

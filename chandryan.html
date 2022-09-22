@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/chandryan.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+
+			$("#btn-mission-info").click(function(){
+
+				 $("#mission-info").fadeIn();
+				 $("#chandryan-home").fadeOut();
+				 $("#spacecraft").fadeOut();
+			
+			});
+
+			$("#btn-mission-home").click(function(){
+				$("#chandryan-home").fadeIn();
+				$("#mission-info").fadeOut();
+				$("#spacecraft").fadeOut();
+			});
+
+			$("#btn-spacecraft").click(function(){
+				$("#spacecraft").fadeIn();
+				$("#chandryan-home").fadeOut();
+				$("#mission-info").fadeOut();
+			});
+
+
+		})
+
+	</script>
+</head>
+<body id="body-">
+	<div class="header">
+		<img src="image/chandryan-2-home.jpg" class="back-image">
+		<nav>
+			<!-- <img src="image/logo.jpeg" class="logo"> -->
+			<!-- <div class="div-logo"> -->
+				<img src="image/logo1.png" class="logo">
+				<!-- <h3>|Solar |System |Exploration</h3> -->
+			<!-- </div> -->
+			<!-- <h1 class="logo">Solar System Exploration</h1> -->
+			<ul class="nav-links">
+				<li><a href="home.html">HOME</a></li>
+		
+
+				<li><a href="#Missions.html">MISSION</a>
+					<ul>
+				<li><a href="chandryan.html">Chandryan-2</a></li>
+					</ul>
+		</li>
+				<li><a href="#Planets.html">GALAXY</a>
+						<ul class="galaxy">
+				<li><a href="Planets.html">Planets</a></li>
+				<li><a href="astronoid.html">Astronoid</a></li>
+				<li id=""><a href="Moons.html">Moons</a>
+					
+				</ul>
+				</li>
+				<!-- <li><a href="astronoid.html">ASTRONOID</a></li> -->
+				<li><a href="Earth.html">EARTH</a>
+<ul class="galaxy">
+				<li><a href="Planets.html">Earth-Moon</a></li>
+			</ul>
+				</li>
+				
+				<li><a href="about.html">ABOUT</a></li>
+				<li class="btn"><a href="login.html">Login</a></li>
+			</ul>
+		</nav>
+
+		<!-- OUR SOLAR SYSTEM -->
+		<!-- <div class="astronoid"><h1>Asteroids</h1></div> -->
+		
+	</div>
+
+
+
+
+
+
+
+
+
+	<!-- ---------------pages------------- -->
+	<!-- <div id="Overview-1"><marquee><p><a href="chandryan.html" class="Overview-1-a">___Chandryan 2__</a></p></marquee></div> -->
+	<div id="Overview"> 
+		<button id="btn-mission-home"><a >Home</a></button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp		
+		<button id="btn-mission-info">Missin Info</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<button id="btn-spacecraft"><a>Spacecraft</a></button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<!-- <button><a>Mission Payloads</a></button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -->
+		<!-- <button><a>Latest Updates</a></button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -->
+		<button><a>Gallery</a></button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<!-- <button><a>FAQ</a></button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp -->
+		<!-- <button><a>Launch Kit</a></button> -->
+</div>
+<br><br><br><br>
+
+<!-- ------------------------ spacecraft--------------->
+<div id="spacecraft">
+	<div id="spacecraft-image">
+		<img src="image/chandryan-spacecraft.jpg"></img>
+		<div class="spacecraft-image-p">
+		
+	 <p>Chandrayaan-2 mission is a highly complex mission, which represents a significant technological leap compared to the previous missions of ISRO, which brought together an Orbiter, Lander and Rover with the goal of exploring south pole of the Moon.</p>
+	 	</div>
+	</div>
+	<div id="spacecraft-orbiter">
+		<div class="spacecraft-orbiter-content">
+			<h1>Orbiter</h1>
+			<table class="spacecraft-orbiter-table">
+		<tr>
+			<td class="spacecraft-td-color" style="background-color:orangered;">Weight</td>
+			<td class="spacecraft-td-withoutcolor">2379kg</td>
+		</tr>
+		<tr>
+			<td class="spacecraft-td-color">Electric Power Generation Capability</td>
+			<td class="spacecraft-td-withoutcolor">1000W</td>
+		</tr>
+		</table><br>
+			<p>Chandrayaan 2 Orbiter is capable of communicating with Indian Deep Space Network (IDSN) at Byalalu as well as the Vikram Lander. The precise launch and mission management has ensured a mission life of almost seven years instead of the planned one year.</p>
+
+		</div>
+		<div class="spacecraft-orbiter-image"><img src="image/spacecraft-orbiter.png"></div>
+	</div>
+
+	<br><br><br><br><br><br><br>
+	<!-- ----------Lander---------===================================================================================== -->
+
+	<div id="spacecraft-vikram">
+		<div class="spacecraft-vikram-image"><img src="image/spacecraft-lander-vikram.png"></div>
+
+		<div class="spacecraft-vikram-content">
+			<h1>Lander — Vikram</h1>
+			<table class="spacecraft-vikram-table">
+		<tr>
+			<td class="spacecraft-td-color" style="background-color:orangered;">Weight</td>
+			<td class="spacecraft-td-withoutcolor">1471kg</td>
+		</tr>
+		<tr>
+			<td class="spacecraft-td-color">Electric Power Generation Capability</td>
+			<td class="spacecraft-td-withoutcolor">650W</td>
+		</tr>
+		</table><br>
+			<p>The Lander of Chandrayaan-2 was named Vikram after Dr Vikram A Sarabhai, the Father of the Indian Space Programme. It was designed to function for one lunar day, which is equivalent to about 14 Earth days..</p>
+
+		</div>
+		
+	</div>
+<br><br><br><br><br><br><br>
+	<!-- -----------Rovar Preagyan-=================================================------- -->
+
+		<div id="spacecraft-orbiter">
+		<div class="spacecraft-orbiter-content">
+			<h1>Rover — Pragyan</h1>
+			<table class="spacecraft-orbiter-table">
+		<tr>
+			<td class="spacecraft-td-color" style="background-color:orangered;">Weight</td>
+			<td class="spacecraft-td-withoutcolor">27kg</td>
+		</tr>
+		<tr>
+			<td class="spacecraft-td-color">Electric Power Generation Capability</td>
+			<td class="spacecraft-td-withoutcolor">50W</td>
+		</tr>
+		</table><br>
+			<p>Chandrayaan-2’s Rover was a 6-wheeled robotic vehicle named as Pragyan, which translates to 'wisdom' in Sanskrit.</p>
+
+		</div>
+		<div class="spacecraft-orbiter-image"><img src="image/spacecraft-rovert-pragyan.png"></div>
+	
+	</div>
+
+
+
+</div>
+	
+
+
+</div>
+<!-- ---------------------mision-info--page---------------- -->
+
+
+<div id="mission-info">
+	<div id="mission-content-1">
+		<p class="p-1">Chandrayaan-2 mission is a highly complex mission, which represents a significant technological leap compared to the previous missions of ISRO. It comprised an Orbiter, Lander and Rover to explore the unexplored South Pole of the Moon. The mission is designed to expand the lunar scientific knowledge through detailed study of topography, seismography, mineral identification and distribution, surface chemical composition, thermo-physical characteristics of top soil and composition of the tenuous lunar atmosphere, leading to a new understanding of the origin and evolution of the Moon.<br><br>
+
+After the injection of Chandrayaan-2, a series of maneuvers were carried out to raise its orbit and on August 14, 2019, following Trans Lunar Insertion (TLI) maneuver, the spacecraft escaped from orbiting the earth and followed a path that took it to the vicinity of the Moon. On August 20, 2019, Chandrayaan-2 was successfully inserted into lunar orbit. While orbiting the moon in a 100 km lunar polar orbit, on September 02, 2019, Vikram Lander was separated from the Orbiter in preparation for landing. Subsequently, two de-orbit maneuvers were performed on Vikram Lander so as to change its orbit and begin circling the moon in a 100 km x 35 km orbit. Vikram Lander descent was as planned and normal performance was observed upto an altitude of 2.1 km. Subsequently communication from lander to the ground stations was lost.
+<br><br>
+The Orbiter placed in its intended orbit around the Moon will enrich our understanding of the moon’s evolution and mapping of the minerals and water molecules in Polar regions, using its eight state-of-the-art scientific instruments. The Orbiter camera is the highest resolution camera (0.3 m) in any lunar mission so far and will provide high resolution images which will be immensely useful to the global scientific community. The precise launch and mission management has ensured a long life of almost seven years instead of the planned one year..
+<br><br>
+<h1 id="mission-content-1-p-h1">Science experiments</h1>
+<br>
+Chandrayaan-2 has several science payloads to expand the lunar scientific knowledge through detailed study of topography, seismography, mineral identification and distribution, surface chemical composition, thermo-physical characteristics of top soil and composition of the tenuous lunar atmosphere, leading to a new understanding of the origin and evolution of the Moon.
+<br><br><br>
+The Orbiter payloads will conduct remote-sensing observations from a 100 km orbit while the Lander and Rover payloads will perform in-situ measurements near the landing site.
+<br><br><br>
+
+<br>
+<div id="mission-content-1-img-1">
+<img src="image/mission-img-1.png">
+</div>
+<br>
+For understanding of the Lunar composition, it is planned to identify the elements and mapping its distribution on the lunar surface both at global and In-situ level. In addition detailed 3 dimensional mapping of the lunar regolith will be done. Measurements on the near surface plasma environment and electron density in the Lunar ionosphere will be studied. Thermo-physical property of the lunar surface and seismic activities will also be measured. Water molecule distribution will be studied using infra red spectroscopy, synthetic aperture radiometry & polarimetry as well as mass spectroscopy techniques.
+</p>
+<br><br><br>
+
+<br>
+<h1 id="mission-content-1-p-h1">Key payloads</h1>
+<br><br>
+</div>
+<div class="payloads-1">
+<div class="payloads">
+	<table>
+		<tr>
+			<td class="td-color">Chandrayaan 2 Large Area Soft X-ray Spectrometer</td>
+			<td class="td-without-color">Elemental composition of the Moon</td>
+		</tr>
+		<tr>
+			<td class="td-color">Imaging IR Spectrometer</td>
+			<td class="td-without-color">Mineralogy mapping and water-ice confirmation</td>
+		</tr>
+		<tr>
+			<td class="td-color">Synthetic Aperture Radar L & S Band</td>
+			<td class="td-without-color">Polar-region mapping and sub-surface water-ice confirmation</td>
+		</tr>
+		<tr>
+			<td class="td-color">Orbiter High Resolution Camera</td>
+			<td class="td-without-color">High-resolution topography mapping</td>
+		</tr>
+		<tr>
+			<td class="td-color">Chandra's Surface Thermo-physical Experiment</td>
+			<td class="td-without-color">Thermal conductivity and temperature gradient</td>
+		</tr>
+		<tr>
+			<td class="td-color">Alpha Particle X-ray Spectrometer and Laser Induced Breakdown Spectroscope</td>
+			<td class="td-without-color">In-situ elemental analysis and abundance in the vicinity of landing site</td>
+		</tr>
+		<caption align="bottom"><button id="mission-info-button">Know More ></button></caption>
+	</table>
+	
+</div>
+</div>
+<div id="gslv">
+	<div class="gslv-img"><img src="image/mission-info-back.png" ></div>
+	<div class="gslv-p">
+		<h1>Geosynchronous Satellite Launch Vehicle Mark-III (GSLV Mk-III)</h1><br>
+		<p>The GSLV Mk-III will carry Chandrayaan 2 to its designated orbit. This three-stage vehicle is India's most powerful launcher to date, and is capable of launching 4-ton class of satellites to the Geosynchronous Transfer Orbit (GTO).
+
+Its components are:</p><br>
+<div style="background-color:orange;">Its components are:</div><br>
+<div>S200 solid rocket boosters</div><br>
+<div>L110 liquid stage</div><br>
+<div>C25 upper stage</div>
+</div>
+	
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- ---------------------home-page---------------- -->
+
+<div id=chandryan-home>
+		<div id="content-2">
+	
+	<p class="p-1">Chandrayaan-2 mission is a highly complex mission, which represents a significant technological leap compared to the previous missions of ISRO, which brought together an Orbiter, Lander and Rover with the goal of exploring south pole of the Moon. This is a unique mission which aims at studying not just one area of the Moon but all the areas combining the exosphere, the surface as well as the sub-surface of the moon in a single mission.</p>
+	
+		<div class="img-1">
+			<img src="image/chandryanimg1.jpg" class="img-1-1">
+		</div>
+		<div class="img-p">
+			
+
+			<h1>Why did we go to the Moon?</h1>
+			<p>The Moon is the closest cosmic body at which space discovery can be attempted and documented. It is also a promising test bed to demonstrate technologies required for deep-space missions. Chandrayaan-2 aims for enhancing our understanding of the Moon, stimulate the advancement of technology, promote global alliances and inspire a future generation of explorers and scientists.</p>
+		</div>
+	</div>
+	<div id="content-2-div-2">
+		<h1>What are the scientific objectives of Chandrayaan 2 ? Why was the Lunar South Pole targetted for exploration?</h1>
+		<p>Moon provides the best linkage to Earth’s early history. It offers an undisturbed historical record of the inner Solar system environment. Though there are a few mature models, further explanations were needed to understand the origin of the Moon. Extensive mapping of lunar surface to study variations in lunar surface were essential to trace back the origin and evolution of the Moon. Evidence for water molecules discovered by Chandrayaan-1, required further studies on the extent of water molecule distribution on the surface, below the surface and in the tenous lunar exosphere to address the origin of water on Moon.<br><br>
+		The Lunar South pole is especially interesting because of the lunar surface area that remains in shadow is much larger than that at the North Pole. There could be a possibility of presence of water in permanently shadowed areas around it. In addition, South Pole region has craters that are cold traps and contain a fossil record of the early Solar System.</p>
+
+	</div>
+<div id="launcher">
+	<h1>Launcher and the Spacecraft</h1>
+	<div id="launcher-image"><img src="image/chandryan-launcher.png"></div>
+		<div id="launcher-p">
+			<h1>Launcher</h1>
+			<p>The GSLV Mk-III is India's most powerful launcher to date, and has been completely designed and fabricated from within the country.
+
+			</p>
+			<button>Click Here ></button>
+		</div>
+</div>
+
+
+<div id="orbiter">
+	<div id="orbiter-p">
+			<h1>Orbiter</h1>
+			<p>The Orbiter will observe the lunar surface and relay communication between Earth and Chandrayaan 2's Lander — Vikram.
+
+			</p>
+
+			<button>Click Here ></button>
+		</div>
+		<div id="orbiter-image">
+			<img src="image/orbiter.png">
+		</div>
+
+</div>
+
+
+<div id="vikram">
+	<div id="vikram-image"><img src="image/vikramlendar.png"></div>
+		<div id="launcher-p">
+			<h1>Vikram Lander</h1>
+			<p>The lander was designed to execute India's first soft landing on the lunar surface.
+
+			</p>
+			<button>Click Here ></button>
+		</div>
+
+		
+</div>
+
+
+<div id="pragyan">
+	<div id="pragyan-p">
+			<h1>Pragyan Rover</h1>
+			<p>The rover was a 6-wheeled, AI-powered vehicle named Pragyan, which translates to 'wisdom' in Sanskrit.
+
+			</p>
+
+			<button>Click Here ></button>
+		</div>
+		<div id="pragyan-image">
+			<img src="image/pragyanrover.png">
+		</div>
+
+</div>
+<div id="timeline">
+
+	<img src="image/back.jpg" class="back-image-2">
+	<h1 id="timeline-heading">Timeline of the mission</h1>
+	<div id="divtimeline-1">
+			<p id="timeline-manmohan"><b class="heading">18th September, 2008 </b><br><br>Prime Minister Manmohan Singh approves the Chandrayaan2 lunar mission</p>
+
+			<p id="timeline-launch-date"><b class="heading">Launch Date </b><br><br>22 july 2019</p>
+
+			<p id="timeline-orbital"><b class="heading">Orbital Experiments</b><br><br>Will be operational for 7 years</p>
+		
+
+
+	</div>
+	<div id="divtimeline-2">
+		<div id="mission-plaining"><h1>Mission Plaining</h1></div>
+		<div id="mission-orbiter-lunar"><h1>Orbiter Lunar Orbit insertion</h1><br><p>Aug 20, 2019</p></div>
+	</div>
+
+
+</div>
+	</div>	
+	<br>
+
+
+<!-- --------------footer------------- -->
+<div id="footer">
+		<div id="footer1">
+			<ul class="footer-nav-links">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="formedia.html">For Media</a></li>
+				<li><a href="https://www.nasa.gov/about/contact/index.html">C-NASA</a></li>
+				<li><a href="https://www.isro.gov.in/contact-us-0">C-ISRO</a></li>
+
+			</ul>
+		<div id="footer2">
+			<ul class="footer2-nav-links">
+				<li>Phone :07078216535. Fax :7078216535</li>
+				<li>@2121 All Right Reserved.</li>
+				<li><a href="">Privacy Policy</a></li>
+			</ul>
+		</div>
+
+		<div id="footer3">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google"></a>
+
+
+
+		</div>
+	</div>
+		</div>
+
+
+
+
+
+</body>
+</html>
